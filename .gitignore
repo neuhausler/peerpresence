@@ -2,6 +2,7 @@
 
 # Output directories
 _rel/
+ebin/
 
 # Mac OS X files
 .DS_Store
@@ -11,3 +12,6 @@ _rel/
 *.iml
 *.ipr
 *.iws
+
+# relx tool
+relx
