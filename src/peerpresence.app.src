@@ -1,8 +1,9 @@
 {application, peerpresence,
  [
-  {description, ""},
+  {description, "PeerPresence"},
   {vsn, "1"},
-  {registered, []},
+  {modules, [peerpresence_sup]},
+  {registered, [peerpresence_sup]},
   {applications, [
                   kernel,
                   stdlib
