@@ -1,9 +1,9 @@
 # peerpresence
 
-## Running and Testing Application
+## Building Application
 
-Start the application
+Build the application
 
-	./gradlew run
+	make
 
 
